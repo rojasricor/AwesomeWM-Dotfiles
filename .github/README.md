@@ -9,6 +9,10 @@
     <img src="assets/awesome.png">
 </div>
 
+<div align="center">
+    <img src="assets/awesome2.png">
+</div>
+
 <br>
 <br>
 
