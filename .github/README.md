@@ -62,7 +62,7 @@ These dotfiles are made with love, for sure.
          wireless_tools jq inotify-tools polkit-gnome xdotool xclip maim \
          brightnessctl alsa-utils alsa-tools pulseaudio lm_sensors \
          mpd mpc mpdris2 ncmpcpp playerctl lsd bat fzf zsh htop neofetch gpick \ 
-	 libnotify xdg-user-dirs firefox unzip --needed 
+	     libnotify xdg-user-dirs firefox unzip --needed 
          ```
 
    + Services
@@ -78,16 +78,7 @@ These dotfiles are made with love, for sure.
 
 2. Install needed fonts
 
-   You will need to install a few fonts (mainly icon fonts) in order for text and icons to be rendered properly.
-
-   Necessary fonts:
-   + **Iosevka**  - [here](https://github.com/ryanoasis/nerd-fonts/)
-   + **Icomoon**  - [here](https://www.dropbox.com/s/hrkub2yo9iapljz/icomoon.zip?dl=0)
-   + **Material** - [here](https://github.com/google/material-design-icons)
-
-   Once you download them and unpack them, place them into `~/.fonts` or `~/.local/share/fonts`.
-
-   Or you can find the required fonts inside the `misc/fonts` folder of this repository.
+   Copy the required fonts inside the `misc/fonts` folder of this repository.
 
    ```sh
    cp -r misc/fonts/* ~/.fonts/
@@ -106,7 +97,7 @@ These dotfiles are made with love, for sure.
     > Clone this repository
 
    ```shell
-   git clone https://github.com/rojasricor/AwesomeWMDotfiles.git
+   git clone https://github.com/richxrx/AwesomeWMDotfiles.git
    cd AwesomeWMDotfiles
    ```
 
@@ -115,7 +106,7 @@ These dotfiles are made with love, for sure.
    ```shell
     cp -r ./config/* ~/.config/
     cp -r ./bin/* ~/.local/bin/
-    cp -r ./misc/. ~/
+    cp -r ./misc/.* ~/
    ```
 
 4. Configure stuff
