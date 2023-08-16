@@ -33,11 +33,12 @@ These dotfiles are made with love, for sure.
 | ---------- | ----------------- |
 | WM         | awesome-git       |
 | OS         | arch linux        |
-| Terminal   | alacritty         |
+| Terminal   | kitty             |
 | Shell      | zsh               |
-| Editor     | neovim / vscode   |
+| Editor     | neovim            |
 | Compositor | picom             |
 | Launcher   | rofi              |
+| Browser    | chromium          |
 
 <h2></h2><br>
 
@@ -56,7 +57,8 @@ These dotfiles are made with love, for sure.
          paru -S awesome-git picom-git rofi todo-bin acpi acpid \
          wireless_tools jq inotify-tools polkit-gnome xdotool xclip maim \
          brightnessctl alsa-utils alsa-tools pulseaudio lm_sensors \
-         mpd mpc mpdris2 ncmpcpp playerctl gpick libnotify --needed 
+         mpd mpc mpdris2 ncmpcpp playerctl lsd bat fzf zsh htop neofetch gpick \ 
+	 libnotify xdg-user-dirs chromium unzip --needed 
          ```
 
    + Services
@@ -203,3 +205,6 @@ also with <kbd>alt, shift, and ctrl</kbd>
 
    - **Credits**
       + [rxyhn](https://github.com/rxyhn)
+      + [ner0z](https://github.com/ner0z)
+      + [ChocolateBread799](https://github.com/ChocolateBread799)
+      + [JavaCafe01](https://github.com/JavaCafe01)

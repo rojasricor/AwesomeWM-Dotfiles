@@ -52,5 +52,5 @@ collectgarbage("setpause", 110)
 collectgarbage("setstepmul", 1000)
 
 -- Wallpaper
-local wallpaper_cmd="feh --bg-fill /home/richxrx/Desktop/richxrx/images/s4vitar.png"
+local wallpaper_cmd="feh --bg-fill ~/Desktop/repos/AwesomeWM-Dotfiles/images/s4vitar.png"
 os.execute(wallpaper_cmd)
