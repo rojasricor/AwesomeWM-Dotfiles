@@ -81,9 +81,9 @@ These dotfiles are made with love, for sure.
    Copy the required fonts inside the `misc/fonts` folder of this repository.
 
    ```sh
-   cp -r misc/fonts/* ~/.fonts/
+   cp -r ./misc/fonts/* ~/.fonts/
    # or to ~/.local/share/fonts 
-   cp -r misc/fonts/* ~/.local/share/fonts/
+   cp -r ./misc/fonts/* ~/.local/share/fonts/
    ```
 
    And run this command for your system to detect the newly installed fonts.
