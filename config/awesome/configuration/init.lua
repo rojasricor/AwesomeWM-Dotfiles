@@ -60,8 +60,8 @@ end)
 -- Wallpapers
 -- set wallpapers
 awful.screen.connect_for_each_screen(function(s)
-    -- gears.wallpaper.maximized(beautiful.wallpaper, s, false, nil)
-    gears.wallpaper.set(beautiful.xcolor8)
+    gears.wallpaper.maximized(beautiful.wallpaper, s, false, nil)
+    -- gears.wallpaper.set(beautiful.xcolor8)
 end)
 
 -- Set Tile Wallpaper

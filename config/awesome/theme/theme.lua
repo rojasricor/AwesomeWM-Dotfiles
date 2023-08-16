@@ -45,13 +45,13 @@ theme.transparent = "#00000000"
 theme.pfp = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/pfp.png")
 
 -- Wallpaper
-theme.wallpaper = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/bg.png")
+theme.wallpaper = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/epic_wallpaper.png")
 
 -- Awesome Logo
 theme.awesome_logo = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/icons/awesome.png")
 
 -- Notifications icon
-theme.notification_icon = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/icons/notification.png")
+-- theme.notification_icon = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/icons/notification.png")
 theme.volume_icon = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/icons/volume.svg")
 theme.brightness_icon = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/icons/brightness.svg")
 
