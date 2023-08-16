@@ -58,11 +58,11 @@ These dotfiles are made with love, for sure.
          *Assuming your AUR helper is* `paru`
 
          ```shell
-         paru -S awesome-git picom-git rofi todo-bin acpi acpid \
+         paru -S awesome-git picom-git kitty rofi todo-bin acpi acpid \
          wireless_tools jq inotify-tools polkit-gnome xdotool xclip maim \
          brightnessctl alsa-utils alsa-tools pulseaudio lm_sensors \
-         mpd mpc mpdris2 ncmpcpp playerctl lsd bat fzf zsh htop neofetch gpick \ 
-	     libnotify xdg-user-dirs firefox unzip --needed 
+         mpd mpc mpdris2 ncmpcpp playerctl lsd bat fzf zsh htop neofetch \
+         gpick libnotify xdg-user-dirs firefox unzip --needed
          ```
 
    + Services
