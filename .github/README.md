@@ -42,7 +42,7 @@ These dotfiles are made with love, for sure.
 | Editor     | neovim            |
 | Compositor | picom             |
 | Launcher   | rofi              |
-| Browser    | chromium          |
+| Browser    | firefox           |
 
 <h2></h2><br>
 
@@ -62,7 +62,7 @@ These dotfiles are made with love, for sure.
          wireless_tools jq inotify-tools polkit-gnome xdotool xclip maim \
          brightnessctl alsa-utils alsa-tools pulseaudio lm_sensors \
          mpd mpc mpdris2 ncmpcpp playerctl lsd bat fzf zsh htop neofetch gpick \ 
-	 libnotify xdg-user-dirs chromium unzip --needed 
+	 libnotify xdg-user-dirs firefox unzip --needed 
          ```
 
    + Services

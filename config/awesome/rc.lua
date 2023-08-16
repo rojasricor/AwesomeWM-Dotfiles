@@ -23,7 +23,7 @@ beautiful.init(gfs.get_configuration_dir() .. "theme/theme.lua")
 terminal = "kitty"
 editor = terminal .. " -e " .. os.getenv("EDITOR")
 vscode = "code"
-browser = "chromium"
+browser = "firefox"
 launcher = "rofi -show drun -theme " .. theme_dir .. "rofi.rasi"
 file_manager = "nautilus"
 music_client = terminal .. " --class music -e ncmpcpp"
@@ -52,5 +52,5 @@ collectgarbage("setpause", 110)
 collectgarbage("setstepmul", 1000)
 
 -- Wallpaper
-local wallpaper_cmd="feh --bg-fill ~/Desktop/repos/AwesomeWM-Dotfiles/images/s4vitar.png"
+local wallpaper_cmd="feh --bg-fill ~/Desktop/$(whoami)/repos/AwesomeWM-Dotfiles/images/s4vitar.png"
 os.execute(wallpaper_cmd)
