@@ -97,7 +97,7 @@ These dotfiles are made with love, for sure.
     > Clone this repository
 
    ```shell
-   git clone https://github.com/richxrx/AwesomeWMDotfiles.git
+   git clone https://github.com/rojasricor/AwesomeWMDotfiles.git
    cd AwesomeWMDotfiles
    ```
 
