@@ -48,6 +48,10 @@ awful.keyboard.append_global_keybindings({
             awful.spawn(file_manager)
         end,
         {description = "open file manager", group = "launcher"}),
+        awful.key({modkey}, "e", function()
+            awful.spawn(vscode)
+        end,
+        {description = "open vs code editor", group = "launcher"}),
         awful.key({modkey}, "w", function()
             awful.spawn.with_shell(browser)
         end,

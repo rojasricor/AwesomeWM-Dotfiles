@@ -83,13 +83,13 @@ client.connect_signal("request::titlebars", function(c)
     -- Create titlebars buttons
     ------------------------------
 
-    local close = create_title_button(c, "#FF5F57", beautiful.titlebar_unfocused, ci(dpi(11), dpi(11)))
+    local close = create_title_button(c, beautiful.xcolor1, beautiful.titlebar_unfocused, ci(dpi(11), dpi(11)))
     close:connect_signal("button::press", function() c:kill() end)
 
-    local float = create_title_button(c, "#FEBC2E", beautiful.titlebar_unfocused, ci(dpi(11), dpi(11)))
+    local float = create_title_button(c, beautiful.xcolor4, beautiful.titlebar_unfocused, ci(dpi(11), dpi(11)))
     float:connect_signal("button::press", function() awful.client.floating.toggle(c) end)
 
-    local max = create_title_button(c, "#28C840", beautiful.titlebar_unfocused, ci(dpi(11), dpi(11)))
+    local max = create_title_button(c, beautiful.xcolor5, beautiful.titlebar_unfocused, ci(dpi(11), dpi(11)))
     max:connect_signal("button::press", function() c.maximized = not c.maximized end)
 
 

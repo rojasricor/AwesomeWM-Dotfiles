@@ -23,14 +23,14 @@ beautiful.init(gfs.get_configuration_dir() .. "theme/theme.lua")
 terminal = "kitty"
 editor = terminal .. " -e " .. os.getenv("EDITOR")
 vscode = "code"
-browser = "firefox"
+browser = "chromium"
 launcher = "rofi -show drun -theme " .. theme_dir .. "rofi.rasi"
 file_manager = "nautilus"
 music_client = terminal .. " --class music -e ncmpcpp"
 
 -- Weather API
-openweathermap_key = "" -- API Key
-openweathermap_city_id = "" -- City ID
+openweathermap_key = "6ab6038ff2a1a7156921620eda55de2c" -- API Key
+openweathermap_city_id = "3688689" -- City ID
 weather_units = "metric" -- Unit
 
 -- Global Vars

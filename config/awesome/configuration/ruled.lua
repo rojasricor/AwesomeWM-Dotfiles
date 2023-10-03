@@ -49,7 +49,7 @@ ruled.client.connect_signal("request::rules", function()
             class = {
                 "discord",
                 "Spotify",
-                "firefox",
+                "chromium",
                 "Org.gnome.Nautilus"
             },
             type = {

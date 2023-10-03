@@ -64,19 +64,6 @@ awful.screen.connect_for_each_screen(function(s)
     -- gears.wallpaper.set(beautiful.xcolor8)
 end)
 
--- Set Tile Wallpaper
--- bling.module.tiled_wallpaper("", s, {
---     fg = beautiful.lighter_bg,
---     bg = beautiful.xbackground,
---     offset_y = 6,
---     offset_x = 18,
---     font = "Iosevka",
---     font_size = 17,
---     padding = 70,
---     zickzack = true
--- })
-
-
 -- Stuff
 -----------
 

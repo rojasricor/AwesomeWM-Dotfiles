@@ -2,7 +2,7 @@ configuration {
 	modi:					"drun";
 	display-drun: 			"Apps";
 	drun-display-format:    "{name}";
-	font:				    "Iosevka 8";
+	font:				    "SF Pro 8";
 	show-icons:              true;
 	icon-theme: 			"Papirus";
 }

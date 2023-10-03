@@ -45,7 +45,7 @@ theme.transparent = "#00000000"
 theme.pfp = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/pfp.png")
 
 -- Wallpaper
-theme.wallpaper = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/epic_wallpaper.png")
+theme.wallpaper = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/mountain.jpg")
 
 -- Awesome Logo
 theme.awesome_logo = gears.surface.load_uncached(gfs.get_configuration_dir() .. "theme/assets/icons/awesome.png")
@@ -224,7 +224,7 @@ theme.notification_border_width = dpi(0)
 
 -- Swallowing
 theme.dont_swallow_classname_list = {
-    "firefox", "gimp", "Google-chrome", "Thunar"
+    "chromium", "gimp", "Google-chrome", "Thunar"
 }
 
 -- Layout Machi
